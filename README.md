@@ -42,10 +42,6 @@ AWS DMS Quick Reference
   "BatchApplyEnabled": true
 }
 
-Target Tips
-Table
-
-Target
 	
 
 Settings
