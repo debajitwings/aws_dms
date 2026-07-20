@@ -32,18 +32,6 @@ AWS DMS Quick Reference
 
 ## Essential Task Settings
 
-```json
-{
-  "CreatePkAfterFullLoad": true,
-  "MaxFullLoadSubTasks": 8,
-  "CommitRate": 50000,
-  "LimitedSizeLobMode": true,
-  "LobMaxSize": 32,
-  "BatchApplyEnabled": true
-}
-
-	
-
 Settings
 MySQL/Aurora	parallelLoadThreads=4-8, disable FK checks
 PostgreSQL	maxFileSize=512, executeTimeout=100
